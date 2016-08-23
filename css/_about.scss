@@ -1,0 +1,25 @@
+.panel-about {
+	ul {
+		li {
+			i {
+				width: 30px;
+				text-align: center;
+				margin-right: 5px;
+			}
+		}
+	}
+
+}
+
+.panel-skills {
+	&__description  {
+		h1,h2,h3,h4,h5,h6 {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 7px 0;
+		}
+		.label {
+			font-weight: normal;
+		}
+	}
+}

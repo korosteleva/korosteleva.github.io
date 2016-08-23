@@ -1,0 +1,12 @@
+body {
+	background: #f5f8fa;
+	min-width: 320px;
+}
+
+.panel {
+	padding: 10px;
+
+	&.panel-profile {
+		padding: 0;
+	}
+}

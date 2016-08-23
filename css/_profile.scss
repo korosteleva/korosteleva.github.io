@@ -1,0 +1,43 @@
+.panel-profile {
+	padding: 0;
+	margin: 0;
+	border-radius: 4px 4px 0 0;
+
+	&__bg {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+
+	&__info {
+		position: relative;
+	}
+
+	&__avatar {
+		width: 100px;
+		height: 100px;
+		background: #ffffff;
+		border-radius: 50%;
+		box-sizing: border-box;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		margin-left: 50%;
+		overflow: hidden;
+		border: 4px solid #ffffff;
+
+		img {
+			position: absolute;
+			width: 100%;
+		}
+	}
+
+	&__description {
+		border-top: none;
+		border-radius: 0 0 4px 4px;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+}
