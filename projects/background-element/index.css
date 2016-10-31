@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+p {
+	margin: 20px 0;
+}
+p img {
+	width: 100%;
+}
+
+.aside {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	width: 200px;
+	height: 400px;
+	background: -moz-element(#main-container);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+}
+
+.delimetr {
+	--top: 0%;
+	--height: 50px;
+	position: absolute;
+	top: var(--top);
+	width: 100%;
+	height: var(--height);
+	right: 0;
+	left: 0;
+	background: rgba(255, 0, 0, .5);
+}
