@@ -24,6 +24,7 @@ p img {
 	right: 50px;
 	width: 200px;
 	height: 400px;
+	background: url('fallback.png');
 	background: -moz-element(#main-container);
 	background-size: contain;
 	background-repeat: no-repeat;
