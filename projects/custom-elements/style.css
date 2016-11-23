@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+custom-progress-bar {
+    display: block;
+    height: 2em;
+    width: 20em;
+    margin: 2em auto 0;
+}
+
+button {
+    margin-top: 1.5em;
+    height: 2.5em;
+    padding: .5em 2em;
+}
