@@ -40,10 +40,63 @@
     </div>
 </template>
 
+<template id="customMultirange">
+    <style>
+        .multirange {
+            display: inline-block;
+            position: relative;
+            border: solid 1px #000;
+            width: 100%;
+            height: .5em;
+            box-sizing: border-box;
+            --low: 0%;
+            --high: 0%;
+            --range-color:#9cf;
+            background: linear-gradient(to right, transparent var(--low), var(--range-color) 0, var(--range-color) var(--high), transparent 0) no-repeat;
+            transition: background 3s;
+        }
+        .multirange > .range {
+            position: absolute;
+            top: -.25em;;
+            left: 0;
+            transition: all .3s;
+        }
+        .multirange > .range > .thumb {
+            width: 1em;
+            height: 1em;
+            border-radius: 50%;
+            background: #000000;
+        }
+        .multirange > .range > .label {
+            color: #333333;
+            margin-top: .5em;
+            font-size: .8em;
+        }
+    </style>
+    <div class="multirange" min="20" max="80">
+        <div class="range range-low">
+            <div class="thumb"></div>
+            <div class="label"></div>
+        </div>
+        <div class="range range-high">
+            <div class="thumb"></div>
+            <div class="label"></div>
+        </div>
+    </div>
+</template>
+
 <div class="container">
-    <h1>Custom Progress Bar</h1>
-    <custom-progress-bar></custom-progress-bar>
-    <button class="js-change-progress">Change Progress</button>
+    <div class="custom-element-wrapper">
+        <h2>Custom Progress Bar</h2>
+        <custom-progress-bar></custom-progress-bar>
+        <button class="js-change-progress">Change Progress</button>
+    </div>
+
+    <div class="custom-element-wrapper">
+        <h2>Custom Multirange</h2>
+        <custom-multirange></custom-multirange>
+        <button class="js-change-multirange">Change Multirange</button>
+    </div>
 </div>
 
 <script src="script.js"></script>

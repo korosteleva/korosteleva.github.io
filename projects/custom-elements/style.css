@@ -12,6 +12,9 @@ html {
     margin: 20px auto;
     text-align: center;
 }
+.custom-element-wrapper {
+    margin: 40px 0;
+}
 
 custom-progress-bar {
     display: block;
@@ -21,7 +24,13 @@ custom-progress-bar {
 }
 
 button {
-    margin-top: 1.5em;
+    margin-top: 2em;
     height: 2.5em;
     padding: .5em 2em;
+}
+
+custom-multirange {
+    display: block;
+    width: 20em;
+    margin: 1em auto 0;
 }
