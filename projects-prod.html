@@ -5,6 +5,7 @@
 	<title>Korosteleva Tatiana - frontend developer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/blueimp-gallery.min.css">
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -117,21 +118,31 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-8 col-md-8 col-lg-10">
 							<h4>
-								<a href="https://korosteleva.github.io/css-checkboxes/" target="_blank">Экраны онлайн голосования - кастомные стилизованные чекбоксы</a>
+								Спецпроект «Кандидат в президенты РФС» для championat.com
 							</h4>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-2 text-right">
-							<i class="fa fa-clock-o"></i> 08.09.2016
+							<i class="fa fa-clock-o"></i> 10.09.2016
 						</div>
 					</div>
 
-					<p>
-						Пример использования кастомизации инпутов без применения плагинов javascript
+					<p id="rfs-links">
+						<a href="projects/rfs/index.png">Главная страница</a><br>
+						<a href="projects/rfs/inner.png">Внутренняя страница</a>
 					</p>
-					<p>
-						<code>pure css</code>
-					</p>
+
+					<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+					<div id="blueimp-gallery" class="blueimp-gallery">
+						<div class="slides"></div>
+						<h3 class="title"></h3>
+						<a class="prev">‹</a>
+						<a class="next">›</a>
+						<a class="close">×</a>
+						<a class="play-pause"></a>
+						<ol class="indicator"></ol>
+					</div>
 				</div>
+
 
 				<div class="work-project">
 					<div class="row">
@@ -150,6 +161,26 @@
 					</p>
 					<p>
 						<code>Bootstrap 3</code>
+					</p>
+				</div>
+
+				<div class="work-project">
+					<div class="row">
+						<div class="col-xs-12 col-sm-8 col-md-8 col-lg-10">
+							<h4>
+								<a href="https://korosteleva.github.io/css-checkboxes/" target="_blank">Экраны онлайн голосования - кастомные стилизованные чекбоксы</a>
+							</h4>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-2 text-right">
+							<i class="fa fa-clock-o"></i> 01.08.2016
+						</div>
+					</div>
+
+					<p>
+						Пример использования кастомизации инпутов без применения плагинов javascript
+					</p>
+					<p>
+						<code>pure css</code>
 					</p>
 				</div>
 
@@ -180,5 +211,16 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/blueimp-gallery.min.js"></script>
+<script>
+	document.getElementById('rfs-links').onclick = function (event) {
+		event = event || window.event;
+		var target = event.target || event.srcElement,
+				link = target.src ? target.parentNode : target,
+				options = {index: link, event: event},
+				links = this.getElementsByTagName('a');
+		blueimp.Gallery(links, options);
+	};
+</script>
 </body>
 </html>
