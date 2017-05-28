@@ -1,234 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Korosteleva Tatiana - frontend developer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Korosteleva Tatiana — Frontend Developer</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<section class="greeting">
+    <div class="avatar">
+        <img src="./images/avatar.jpg">
+    </div>
+    <h1>Hi, I am Tatiana</h1>
+    <h3>I am frontend developer</h3>
+</section>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-	(function (d, w, c) {
-		(w[c] = w[c] || []).push(function() {
-			try {
-				w.yaCounter41560659 = new Ya.Metrika({
-					id:41560659,
-					clickmap:true,
-					trackLinks:true,
-					accurateTrackBounce:true
-				});
-			} catch(e) { }
-		});
+<section class="hard-skills">
+    <h2>&lt;Hard Skills /&gt;</h2>
+    <div class="container">
+        <span class="tag">javascript</span>
+        <span class="tag">es2015</span>
+        <span class="tag">react</span>
+        <span class="tag">redux</span>
+        <span class="tag">jest</span>
+        <span class="tag">css</span>
+        <span class="tag">css-modules</span>
+        <span class="tag">stylus</span>
+        <span class="tag">html</span>
+        <span class="tag">git</span>
+        <span class="tag">jira</span>
+        <span class="tag">confluence</span>
+        <span class="tag">phpStorm</span>
+        <span class="tag">sketch</span>
+    </div>
+</section>
 
-		var n = d.getElementsByTagName("script")[0],
-				s = d.createElement("script"),
-				f = function () { n.parentNode.insertBefore(s, n); };
-		s.type = "text/javascript";
-		s.async = true;
-		s.src = "https://mc.yandex.ru/metrika/watch.js";
+<section class="soft-skills">
+    <h2>&lt;Soft Skills /&gt;</h2>
+    <div class="container">
+        <span class="tag">Middle frontend developer</span>
+        <span class="tag">Mentor for beginners</span>
+    </div>
+</section>
 
-		if (w.opera == "[object Opera]") {
-			d.addEventListener("DOMContentLoaded", f, false);
-		} else { f(); }
-	})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript>
-	<div><img src="https://mc.yandex.ru/watch/41560659" style="position:absolute; left:-9999px;" alt="" /></div>
-</noscript>
-<!-- /Yandex.Metrika counter -->
+<section class="experience">
+    <h2>&lt;Work Experience /&gt;</h2>
+    <div class="container">
+        <div class="experience-element">
+            <p class="experience-element-title">Avito</p>
+            <p class="experience-element-date">October, 2016 — present</p>
+            <p>The biggest Russian free classifieds site. I work for monetization unit, responsible for advertisement.</p>
+        </div>
+        <div class="experience-element">
+            <p class="experience-element-title">HTML Academy</p>
+            <p class="experience-element-date">March, 2016 – May, 2017</p>
+            <p>Online service for studying javascript and css. I was a mentor for beginners.</p>
+        </div>
+        <div class="experience-element">
+            <p class="experience-element-title">Rambler&Co</p>
+            <p class="experience-element-date">December, 2015 – October, 2016</p>
+            <p>One of the biggest group of media companies in Russia. I worked for project Championat — the biggest sport site in Russia as frontend developer.</p>
+        </div>
+        <div class="experience-element">
+            <p class="experience-element-title">Reliable Systems</p>
+            <p class="experience-element-date">March, 2015 – November, 2015</p>
+            <p>IT company provided a lot of online banking services. I worked as frontend developer. I was building user interfaces.</p>
+        </div>
+        <div class="experience-element">
+            <p class="experience-element-title">Vigrom Corp.</p>
+            <p class="experience-element-date">August, 2011 – March, 2015</p>
+            <p>IT company worked on gaming highload projects. I worked as fullstack developer.</p>
+        </div>
+    </div>
+</section>
 
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-navbar" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+<section class="projects">
+    <h2>&lt;Projects /&gt;</h2>
 
-				<a href="index.html">
-					<img class="navbar-brand" src="images/logo.svg" alt="</>"/>
-				</a>
-			</div>
+    <ul class="github-cards container">
+        <li>
+            <div class="github-card">
+                <div class="github-card-title">«Spartak» Hockey club</div>
+                <p class="github-card-description">
+                    Special landing for Russian hockey club «Spartak»
+                </p>
+                <a href="https://korosteleva.github.io/spartak70/" target="_blank">Demo</a>
+                <a class="github-card-icon" href="https://github.com/korosteleva/spartak70" target="_blank">
+                    <svg class="icon" width="20" height="20">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./symbol-defs.svg#icon-github"></use>
+                    </svg>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="github-card">
+                <div class="github-card-title">«SVG Power»</div>
+                <p class="github-card-description">
+                    Overview presentation about SVG power
+                </p>
+                <a href="https://korosteleva.github.io/svg/" target="_blank">Demo</a>
+                <a class="github-card-icon" href="https://github.com/korosteleva/svg" target="_blank">
+                    <svg class="icon" width="20" height="20">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./symbol-defs.svg#icon-github"></use>
+                    </svg>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="github-card">
+                <div class="github-card-title">Tinkoff landing</div>
+                <p class="github-card-description">
+                    Tinkoff business landing
+                </p>
+                <a href="https://korosteleva.github.io/tinkoff-landing/" target="_blank">Demo</a>
+                <a class="github-card-icon" href="https://github.com/korosteleva/tinkoff-landing" target="_blank">
+                    <svg class="icon" width="20" height="20">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./symbol-defs.svg#icon-github"></use>
+                    </svg>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="github-card">
+                <div class="github-card-title">Kitchen Lab</div>
+                <p class="github-card-description">
+                    Kitchen Lab landing
+                </p>
+                <a href="https://korosteleva.github.io/kitchen-lab/" target="_blank">Demo</a>
+                <a class="github-card-icon" href="https://github.com/korosteleva/kitchen-lab" target="_blank">
+                    <svg class="icon" width="20" height="20">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./symbol-defs.svg#icon-github"></use>
+                    </svg>
+                </a>
+            </div>
+        </li>
+    </ul>
+</section>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="collapsed-navbar">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">About</a></li>
-					<li><a href="experience.html">Work experience</a></li>
-					<li><a href="projects-prod.html">Projects Production</a></li>
-					<li><a href="projects-experiment.html">Projects Experiment</a></li>
-					<!--<li><a href="#">Contacts</a></li>-->
-				</ul>
+<section class="courses">
+    <h2>&lt;Courses /&gt;</h2>
 
-				<ul class="nav navbar-nav navbar-right navbar-socials">
-					<li>
-						<a href="https://www.facebook.com/korosteleva.tan9" target="_blank" class="navbar-socials__element _fb">
-							<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/socials.svg#fb"></use></svg>
-						</a>
-					</li>
-					<li>
-						<a href="https://twitter.com/korosteleva__" target="_blank" class="navbar-socials__element _twitter">
-							<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/socials.svg#twitter"></use></svg>
-						</a>
-					</li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
+    <ul class="github-cards container">
+        <li>
+            <div class="github-card">
+                <div class="github-card-title">ReactJS</div>
+                <p class="experience-element-date">March, 2017</p>
+                <p class="github-card-description">
+                    Course for developing applications on ReactJS
+                </p>
+                <a href="http://learn.javascript.ru/courses/react" target="_blank">learn.javascript.ru</a>
+                <a class="github-card-icon" href="https://github.com/korosteleva/js_ru_27_02_17" target="_blank">
+                    <svg class="icon" width="20" height="20">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./symbol-defs.svg#icon-github"></use>
+                    </svg>
+                </a>
+            </div>
+        </li>
+    </ul>
+</section>
 
+<section class="contacts">
+    <h2>&lt;Contacts /&gt;</h2>
+    <p>
+        <svg class="icon" width="20" height="20">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./symbol-defs.svg#icon-linkedin"></use>
+        </svg>
+        <a href="https://www.linkedin.com/in/tatiana-korosteleva-6297a0100/" target="_blank" class="contact-link">LinkedIn</a>
+        &nbsp;&nbsp;&nbsp;
+        <svg class="icon" width="20" height="20">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./symbol-defs.svg#icon-github"></use>
+        </svg>
+        <a href="https://github.com/korosteleva" target="_blank" class="contact-link">GitHub</a>
+    </p>
+    <p>
+        <a href="mailto:korosteleva.tatiana92@gmail.com">korosteleva.tatiana92@gmail.com</a>
+    </p>
+    <p>
+        <a href="tel:89254860848">+7 (925) 486-08-48</a>
+    </p>
+</section>
 
-
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="panel panel-default panel-profile">
-
-					<div class="panel-profile__bg">
-						<img src="images/profile_bg.jpg">
-					</div>
-
-					<div class="panel-profile__info">
-
-						<div class="panel-profile__avatar">
-							<img src="images/avatar.jpg">
-						</div>
-					</div>
-
-				</div>
-				<div class="panel panel-default panel-profile__description">
-					<h4>Tatiana Korosteleva</h4>
-					<p>Frontend developer</p>
-					<p>Just an ordinary girl. Love my job, inspired by life, perfectionist. Always tries to do all my best. </p>
-				</div>
-
-				<div class="panel panel-default panel-about">
-					<h4>About</h4>
-					<ul class="list-unstyled">
-						<li><i class="fa fa-laptop"></i> Working at Avito</li>
-						<li><i class="fa fa-code"></i> Developer since <strong>2011</strong></li>
-						<li><i class="fa fa-map-marker" aria-hidden="true"></i> Living in <strong>Moscow</strong></li>
-						<li><i class="fa fa-calendar" aria-hidden="true"></i> Born in 04/18/1992</li>
-					</ul>
-				</div>
-
-				<div class="panel panel-default panel-about">
-					<h4>Contacts</h4>
-					<ul class="list-unstyled">
-						<li><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:89254860848">8 925 486-08-48</a></li>
-						<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:korosteleva.tatiana92@gmail.com">korosteleva.tatiana92@gmail.com</a></li>
-						<li><i class="fa fa-github-alt" aria-hidden="true"></i> <a href="https://github.com/korosteleva" target="_blank">korosteleva</a></li>
-						<li><i class="fa fa-skype" aria-hidden="true"></i> korosteleva.tatiana</li>
-					</ul>
-				</div>
-
-				<div class="panel panel-default panel-about">
-					<h4>Education</h4>
-					<dl>
-						<dt>2009 &mdash; 2014</dt>
-						<dd>
-							<h5><a href="http://international.pnzgu.ru/" target="_blank">Penza State University</a></h5>
-							<p>
-								I studied computer science. The major fields of studies:
-								programming, math, probability theory and physics.
-								I graduated university as engineer having diploma with honours.
-							</p>
-						</dd>
-						<dt>1999 &mdash; 2009</dt>
-						<dd>
-							<h5>Penza Math Economic Lyceum №29</h5>
-							<p>
-								The major fields of studies:
-								math, economics, human science.
-								I graduated lyceum with honors having gold medal.
-							</p>
-						</dd>
-					</dl>
-				</div>
-
-				<div class="panel panel-default panel-about panel-skills">
-					<h4>Skills</h4>
-
-					<div class=" panel-skills__description">
-						<h2><span class="label label-info">javascript</span></h2>
-						<h3><span class="label label-info">html5</span></h3>
-						<h3><span class="label label-default">css3</span></h3>
-						<h4><span class="label label-default">sass</span></h4>
-						<h3><span class="label label-default">flexbox</span></h3>
-						<h3><span class="label label-info">bootstrap</span></h3>
-						<h6><span class="label label-info">angular</span></h6>
-						<h6><span class="label label-info">ember</span></h6>
-						<h6><span class="label label-info">react</span></h6>
-						<h3><span class="label label-info">jquery</span></h3>
-						<h2><span class="label label-primary">git</span></h2>
-						<h4><span class="label label-default">less</span></h4>
-						<h3><span class="label label-default">svg</span></h3>
-						<h2><span class="label label-primary">jira</span></h2>
-						<h4><span class="label label-primary">confluence</span></h4>
-						<h3><span class="label label-primary">sketch</span></h3>
-						<h3><span class="label label-primary">photoshop</span></h3>
-						<h3><span class="label label-default">stylus</span></h3>
-						<h2><span class="label label-primary">phpStorm</span></h2>
-						<h5><span class="label label-info">sql</span></h5>
-						<h5><span class="label label-info">php</span></h5>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-sm-8">
-				<div class="panel panel-default">
-					<h4>
-						Work experience
-						<a href="experience.html" class="small">Learn more</a>
-					</h4>
-					<dl>
-						<dt>October, 2016 – present</dt>
-						<dd>
-							<h5><a href="https://avito.ru" target="_blank">Avito</a></h5>
-							<p>
-								The biggest Russian free classifieds site. I work for monetization unit, responsible for advertisement.
-							</p>
-						</dd>
-
-						<dt>March, 2016 – May, 2017</dt>
-						<dd>
-							<h5><a href="https://htmlacademy.ru" target="_blank">Html Academy</a></h5>
-							<p>
-								Online service for studying javascript and css. I was a tutor for beginners.
-							</p>
-						</dd>
-
-						<dt>December, 2015 – October, 2016</dt>
-						<dd>
-							<h5><a href="https://rambler-co.ru/en" target="_blank">Rambler&Co</a></h5>
-							<p>
-								One of the biggest group of media companies in Russia. I worked for project <a href="http://www.championat.com/" target="_blank">Championat</a> &mdash; the biggest sport site in Russia as frontend developer.
-							</p>
-						</dd>
-
-						<dt>March, 2015 – November, 2015</dt>
-						<dd>
-							<h5>Reliable Systems</h5>
-							<p>IT company provides many online banking services.  I worked as frontend developer. The major attention I paid for building UX and UI interface.</p>
-						</dd>
-
-						<dt>August, 2011 – March, 2015</dt>
-						<dd>
-							<h5><a href="http://vigromcorp.com" target="_blank">Vigrom Corp.</a></h5>
-							<p>IT company working on gaming highload projects. I worked as fullstack developer.</p>
-						</dd>
-					</dl>
-				</div>
-			</div>
-		</div>
-	</div>
-
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
