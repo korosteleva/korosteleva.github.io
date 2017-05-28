@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+    color: #23527c;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.greeting {
+    background: transparent url('../images/lines-of-code.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    position: relative;
+}
+.greeting::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.greeting h1,
+.greeting h3,
+.greeting .avatar {
+    position: relative;
+    z-index: 1;
+}
+
+.greeting .avatar {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.greeting .avatar img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+@media (max-width: 400px) {
+    .greeting .avatar {
+        width: 80%;
+    }
+
+    .greeting .avatar img {
+        border-radius: 0;
+    }
+}
+
+.hard-skills {
+    background: #F5F5F0;
+
+}
+
+.hard-skills .tag {
+    background: #ffffff;
+}
+
+.tag {
+    padding: 3px 7px;
+    border-radius: 5px;
+    background: #f5f5f5;
+    border: 1px solid #ececec;
+    display: inline-block;
+    margin: 3px 6px 3px 0;
+}
+
+.contacts {
+    background-color: #EBE9E3;
+}
+
+.contacts .icon {
+    vertical-align: middle;
+}
+
+.contacts .contact-link {
+    color: #000000;
+}
