@@ -81,12 +81,12 @@ section {
     }
 }
 
-.soft-skills {
-    background: #F5F5F0;
+.hard-skills {
+    background: #f9f9f9;
 
 }
 
-.soft-skills .tag {
+.hard-skills .tag {
     background: #ffffff;
 }
 
@@ -147,8 +147,8 @@ section {
     color: #000000;
 }
 
-.projects {
-    background: #f9f9f9;
+.experience {
+    background: #F5F5F0;
 }
 
 .experience-element {
@@ -168,7 +168,7 @@ section {
 }
 
 .articles {
-    background: #F5F5F0;
+    background: #f9f9f9;
 }
 
 .article-element {
