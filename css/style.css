@@ -166,3 +166,19 @@ section {
     font-size: 20px;
     font-weight: bold;
 }
+
+.articles {
+    background: #F5F5F0;
+}
+
+.article-element {
+    text-align: left;
+}
+.article-element .icon,
+.article-element .link {
+    vertical-align: middle;
+    display: inline-block;
+}
+.article-element .icon {
+    margin-right: 10px;
+}
