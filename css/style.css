@@ -134,6 +134,10 @@ section {
     width: 40px;
     height: 40px;
 }
+.github-card-links {
+    display: flex;
+    justify-content: space-between;
+}
 
 .contacts {
     background-color: #EBE9E3;
@@ -181,4 +185,8 @@ section {
 }
 .article-element .icon {
     margin-right: 10px;
+}
+
+.projects-see-more {
+    margin-top: 20px;
 }
