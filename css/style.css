@@ -177,6 +177,7 @@ section {
 
 .article-element {
     text-align: left;
+    margin: 10px 0;
 }
 .article-element .icon,
 .article-element .link {
