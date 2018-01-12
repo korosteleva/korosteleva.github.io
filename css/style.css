@@ -171,21 +171,8 @@ section {
     font-weight: bold;
 }
 
-.articles {
+.courses {
     background: #f9f9f9;
-}
-
-.article-element {
-    text-align: left;
-    margin: 10px 0;
-}
-.article-element .icon,
-.article-element .link {
-    vertical-align: middle;
-    display: inline-block;
-}
-.article-element .icon {
-    margin-right: 10px;
 }
 
 .projects-see-more {
